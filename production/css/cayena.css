@@ -35,17 +35,12 @@
 
 
 
-
-
-#141414
-#ad172b
-
-
 /* OVERRIDES */
 
 .login_content h1:before, .login_content h1:after {
     width: 8% !important;
 }
+
 
 .profile {
     margin-top: 60px;
@@ -87,6 +82,7 @@
 
 body {
  background: #141414;
+ color: #141414;
 }
 
 .sidebar-footer a:hover {
@@ -96,4 +92,37 @@ body {
 
 .nav-sm .nav.child_menu li.active, .nav-sm .nav.side-menu li.active-sm {
     border-right: 5px solid #ad172b;
+}
+
+.nav-sm ul.nav.child_menu {
+        background: #141414;
+}
+
+.toggle a {
+   color: #ad172b;
+}
+
+#nprogress .bar {
+  background: #ad172b;
+}
+
+#nprogress .spinner-icon {
+    border-top-color: #ad172b;
+    border-left-color: #ad172b;
+}
+
+.bg-red {
+    background: #ad172b !important;
+    border: 1px solid #ad172b !important;
+}
+
+.red {
+    color:#ad172b;
+}
+.dropdown-menu>li>a {
+    color:#141414;
+}
+
+a {
+    color:#141414;
 }
