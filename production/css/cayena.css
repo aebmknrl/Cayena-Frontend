@@ -126,3 +126,14 @@ body {
 a {
     color:#141414;
 }
+.bg-white {
+    color: #141414;
+}
+
+table.tile_info td:first-child {
+    width: 70%;
+}
+
+a:focus, a:hover {
+    color:#ad172b;
+}
